@@ -22,6 +22,8 @@
 
 }
 
+body {}
+
 /* header */
 
 
@@ -32,7 +34,20 @@
 
 /* CTA */
 
+#cta {
+    width: 50%;
+    height: 2rem;
 
+    margin: 0 auto;
+    position: fixed;
+    bottom: 1rem;
+
+    background-color: blue;
+
+    border-radius: 1rem;
+
+    text-align: center;
+}
 
 /* button */
 
