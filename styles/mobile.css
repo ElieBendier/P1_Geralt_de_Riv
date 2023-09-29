@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 :root {
     --color-cta: #0B5185;
     --color-frame: #314455;
@@ -19,10 +22,12 @@
 
     --big-border-radius: 1rem;
     --little-border-radius: 0.3rem;
-
 }
 
-body {}
+html {
+    height: 100%;
+    width: 100%;
+}
 
 /* header */
 
@@ -36,17 +41,39 @@ body {}
 
 #cta {
     width: 50%;
-    height: 2rem;
-
+    min-width: 150px;
+    height: 8%;
+    min-height: 2.5rem;
+    max-height: 3rem;
     margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 2rem;
+
+    box-shadow: 1px 1px 5px gray;
+
     position: fixed;
-    bottom: 1rem;
+    bottom: 0.8rem;
+    left: 0;
+    right: 0;
 
-    background-color: blue;
+    background-color: var(--color-cta);
 
-    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-family-cta);
+    font-weight: var(--font-weight-cta);
+    color: white;
+    text-shadow: 0.2px 0.2px 1px black;
+}
+
+
+#cta:active {
+    box-shadow: 1px 1px 5px gray, .5px .5px 5px black inset;
+    text-shadow: 0.5px 0.5px 2px black;
 }
 
 /* button */
