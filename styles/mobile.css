@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 :root {
     --color-cta: #0B5185;
     --color-frame: #314455;
@@ -14,16 +17,18 @@
 
     --font-size-button: 1rem;
     --font-size-title: 1.5rem;
-    --font-size-character-name: 1rem;
+    --font-size-character-name: 2rem;
     --font-size-text: 1rem;
     --font-size-text-form: 0.8rem;
 
     --big-border-radius: 1rem;
     --little-border-radius: 0.3rem;
-
 }
 
-body {}
+html {
+    height: 100%;
+    width: 100%;
+}
 
 /* header */
 header {
@@ -54,25 +59,95 @@ footer {
 
 #cta {
     width: 50%;
-    height: 2rem;
-
+    min-width: 150px;
+    height: 8%;
+    min-height: 2.5rem;
+    max-height: 3rem;
     margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 2rem;
+
+    box-shadow: 1px 1px 5px gray;
+
     position: fixed;
-    bottom: 1rem;
+    bottom: 0.8rem;
+    left: 0;
+    right: 0;
 
-    background-color: blue;
+    background-color: var(--color-cta);
 
-    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-family-cta);
+    font-weight: var(--font-weight-cta);
+    color: white;
+    text-shadow: 0.2px 0.2px 1px black;
+}
+
+
+#cta:active {
+    box-shadow: 1px 1px 5px gray, .5px .5px 5px black inset;
+    text-shadow: 0.5px 0.5px 2px black;
 }
 
 /* button */
 
-
+.home>.button-logo {
+    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--color-button);
+    margin: 1rem;
+    border-radius: var(--little-border-radius);
+}
 
 /* home-page */
 
+body {
+    background-image: url(/assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-page {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.home>.button-title>a {
+    background-color: var(--color-background-title);
+    color: var(--color-text-button);
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--font-size-button);
+    font-family: var(--font-family);
+    padding: 0.2rem;
+    border-radius: var(--little-border-radius);
+}
+
+.geralt-main-pic.home {
+
+    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+    background-image: url(/assets/geralt-main.jpeg);
+    width: 18.75rem;
+    height: 18.75rem;
+    margin : 3rem 3rem 0 3rem;
+}
+
+.geralt-name.home {
+    color: var(--color-background-title);
+    width: 75%;
+    text-align: center;
+    font-size: var(--font-size-character-name);
+    font-family: var(--font-family);
+}
 
 
 /* section-page */
