@@ -5,8 +5,8 @@
     --color-cta: #0B5185;
     --color-frame: #314455;
     --color-button: #738186;
-    --color-background-title: #566470, 0.5;
-    --color-background-text: #B6BDC1, 0.1;
+    --color-background-title:rgb(86, 100, 112, 0.8);
+    --color-background-text: rgb(182, 189, 193, 0.15);
     --color-text-button: rgb(229, 229, 229);
     --color-text-title: rgb(17, 17, 17);
     --color-text: rgb(229, 229, 229);
@@ -17,7 +17,7 @@
 
     --font-size-button: 1rem;
     --font-size-title: 1rem;
-    --font-size-character-name: 1rem;
+    --font-size-character-name: 2rem;
     --font-size-text: 1rem;
 
     --big-border-radius: 1rem;
@@ -78,10 +78,58 @@ html {
 
 /* button */
 
-
+.home>.button-logo {
+    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--color-button);
+    margin: 1rem;
+    border-radius: var(--little-border-radius);
+}
 
 /* home-page */
 
+body {
+    background-image: url(/assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-page {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.home>.button-title>a {
+    background-color: var(--color-background-title);
+    color: var(--color-text-button);
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--font-size-button);
+    font-family: var(--font-family);
+    padding: 0.2rem;
+    border-radius: var(--little-border-radius);
+}
+
+.geralt-main-pic.home {
+
+    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+    background-image: url(/assets/geralt-main.jpeg);
+    width: 18.75rem;
+    height: 18.75rem;
+    margin : 3rem 3rem 0 3rem;
+}
+
+.geralt-name.home {
+    color: var(--color-background-title);
+    width: 75%;
+    text-align: center;
+    font-size: var(--font-size-character-name);
+    font-family: var(--font-family);
+}
 
 
 /* section-page */
@@ -89,3 +137,4 @@ html {
 
 
 /* form-page */
+

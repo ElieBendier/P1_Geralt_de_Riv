@@ -37,9 +37,7 @@
             </div>
 
             <div class="geralt-main-pic home"></div>
-            <div class="geralt-name home">
-                <h1>Geralt De Riv</h1>
-            </div>
+            <h1 class="geralt-name home">Geralt De Riv</h1>
 
             <div class="button skills home">
                 <div class="button-logo">
