@@ -25,60 +25,48 @@
     --little-border-radius: 0.3rem;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
 
 body {
     background-image: url("../assets/background.jpeg");
 }
 
-html {
-    height: 100%;
-    width: 100%;
+main {
 
+    padding: 4rem 0;
 }
 
-/* header */
+/* header & footer */
+
+header,
+footer {
+    display: block;
+    width: 100%;
+    height: 13%;
+    min-height: 2rem;
+    position: fixed;
+    background-color: var(--color-frame);
+    z-index: 1;
+}
+
 header {
-    display: block;
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 70% 30%, 30% 30%, 0% 50%);
-    width: 100%;
-    height: 13%;
-    min-height: 2rem;
-    position:fixed;
-    background-color: var(--color-frame);
 }
 
-
-/* footer */
 footer {
-    display: block;
     clip-path: polygon(20% 70%, 80% 70%, 100% 40%, 100% 100%, 0% 100%, 0% 40%);
-    width: 100%;
-    height: 13%;
-    min-height: 2rem;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 0rem;
-
-
-footer {
-    display: block;
-    clip-path: polygon(20% 70%, 80% 70%, 100% 40%, 100% 100%, 0% 100%, 0% 40%);
-
-    width: 100%;
-    height: 15%;
-    min-height: 6rem;
-
-    margin: 0 auto;
-    position: fixed;
-    bottom: 0rem;
-    z-index: -1;
-
-    background-color: var(--color-frame);
-    
+    bottom: 0;
 }
+
 /* CTA */
 
-#cta {
+#cta a {
+    z-index: 2;
+
+
     width: 50%;
     min-width: 150px;
     height: 8%;
@@ -88,7 +76,7 @@ footer {
     border: 1px solid black;
     border-radius: 2rem;
 
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: 1px 1px 5px black;
 
     position: fixed;
     bottom: 0.8rem;
@@ -101,6 +89,7 @@ footer {
     align-items: center;
 
     text-align: center;
+    text-decoration: none;
     font-size: 1.2rem;
     font-family: var(--font-family-cta);
     font-weight: var(--font-weight-cta);
@@ -111,8 +100,8 @@ footer {
 }
 
 
-#cta:active {
-    box-shadow: 1px 1px 5px gray, .5px .5px 5px black inset;
+#cta a:active {
+    box-shadow: 1px 1px 5px black, .5px .5px 5px black inset;
     text-shadow: 0.5px 0.5px 2px black;
 }
 
@@ -136,11 +125,9 @@ body {
 }
 
 #home-page {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 3rem;
 }
 
 .home>.button-title>a {
@@ -160,12 +147,12 @@ body {
     background-image: url(/assets/geralt-main.jpeg);
     width: 18.75rem;
     height: 18.75rem;
-    margin : 3rem 3rem 0 3rem;
+    margin: 3rem 3rem 0 3rem;
 }
 
 .geralt-name.home {
     color: var(--color-background-title);
-    width: 75%;
+    width: 100%;
     text-align: center;
     font-size: var(--font-size-character-name);
     font-family: var(--font-family);
@@ -174,7 +161,7 @@ body {
 
 /* section-page */
 
-#my-story{
+#my-story {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -184,6 +171,7 @@ body {
     background-color: var(--color-background-text);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .section-title {
     display: block;
     margin-left: auto;
@@ -220,11 +208,12 @@ body {
 #form-page {
     background-image: url("/../assets/background.jpeg");
     background-size: cover;
-    font-family : var(--font-family);
+    font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-form);
     padding-top: 15%;
 }
+
 #form-page form {
     margin-left: auto;
     margin-right: auto;
@@ -235,10 +224,12 @@ body {
     background-color: var(--color-background-text);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 #form-page .form-content {
     display: block;
     align-items: center;
 }
+
 #form-page .form-title {
     display: block;
     margin-left: auto;
@@ -252,22 +243,28 @@ body {
     margin-top: 3%;
     margin-bottom: 7%;
 }
+
 #form-page h2 {
     text-align: center;
     line-height: 2.5rem;
     font-size: var(--font-size-title);
     color: var(--color-text-title);
 }
+
 #form-page ul {
     list-style: none;
 }
+
 #form-page form ul li label {
     display: block;
-    width : 14rem;
+    width: 14rem;
     margin: 0.5rem auto 0.5rem auto;
     text-align: center;
 }
-#form-page form input, select, textarea {
+
+#form-page form input,
+select,
+textarea {
     width: 12rem;
     box-sizing: border-box;
     font-family: var(--font-family);
@@ -275,7 +272,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 #form-page form textarea {
     height: 4rem;
 }
-
