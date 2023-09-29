@@ -7,7 +7,7 @@
             <a href="#my-story"></a>
         </div>
         <div class="button-title">
-            <a href="#my-story">My Story</a>
+            <a href="#my-story">MY STORY</a>
         </div>
     </div>
     <div class="button armory section">
@@ -43,9 +43,11 @@
 
     <section class="section-bloc" id="my-story">
         <div class="section-title">
-            <h2>My Cock</h2>
+            <h2>My Story</h2>
         </div>
         <div class="section-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
+        </div>
         </div>
     </section>
     <section class="section-bloc" id="armory">
@@ -53,13 +55,14 @@
             <h2>My Cockring</h2>
         </div>
         <div class="section-text">
-        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
     </section>
     <section class="section-bloc" id="skills">
         <div class="section-title">
             <h2>My Cock Skills</h2>
         </div>
         <div class="section-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
         </div>
     </section>
     <section class="section-bloc" id="graveyard">
@@ -67,6 +70,7 @@
             <h2>My Cock's Dead enemies</h2>
         </div>
         <div class="section-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
         </div>
     </section>
 

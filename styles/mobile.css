@@ -25,9 +25,15 @@
     --little-border-radius: 0.3rem;
 }
 
+
+body {
+    background-image: url("../assets/background.jpeg");
+}
+
 html {
     height: 100%;
     width: 100%;
+
 }
 
 /* header */
@@ -41,6 +47,7 @@ header {
     background-color: var(--color-frame);
 }
 
+
 /* footer */
 footer {
     display: block;
@@ -52,9 +59,23 @@ footer {
     position: fixed;
     bottom: 0rem;
 
-    background-color: var(--color-frame);
-}
 
+footer {
+    display: block;
+    clip-path: polygon(20% 70%, 80% 70%, 100% 40%, 100% 100%, 0% 100%, 0% 40%);
+
+    width: 100%;
+    height: 15%;
+    min-height: 6rem;
+
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0rem;
+    z-index: -1;
+
+    background-color: var(--color-frame);
+    
+}
 /* CTA */
 
 #cta {
@@ -75,7 +96,6 @@ footer {
     right: 0;
 
     background-color: var(--color-cta);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +105,9 @@ footer {
     font-family: var(--font-family-cta);
     font-weight: var(--font-weight-cta);
     color: white;
+
     text-shadow: 0.2px 0.2px 1px black;
+
 }
 
 
@@ -152,6 +174,46 @@ body {
 
 /* section-page */
 
+#my-story{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1rem;
+    border: 1px solid var(--color-text-title);
+    border-radius: var(--big-border-radius);
+    background-color: var(--color-background-text);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-button);
+    border-radius: 0.7rem;
+    border: 1px solid var(--color-text-title);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 2.5rem;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    font-family: var(--font-size-title);
+    text-align: center;
+    align-items: center;
+}
+
+.section-text {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 1rem;
+    border: 1px solid var(--color-text-title);
+    border-radius: var(--big-border-radius);
+    background-color: var(--color-background-text);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: var(--font-size-text);
+}
 
 
 /* form-page */
@@ -216,3 +278,4 @@ body {
 #form-page form textarea {
     height: 4rem;
 }
+
