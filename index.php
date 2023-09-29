@@ -68,7 +68,7 @@
         ?>
 
         <div id="cta">
-            HIRE ME !
+            <a>HIRE ME !</a>
         </div>
     </main>
 
