@@ -35,8 +35,7 @@ body {
 }
 
 main {
-
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 /* header & footer */
@@ -108,14 +107,78 @@ footer {
 /* button */
 
 .home>.button-logo {
-    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
-    width: 5rem;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: inline-block;
+    position: relative;
     height: 5rem;
-    background-color: var(--color-button);
-    margin: 1rem;
-    border-radius: var(--little-border-radius);
+    width: 5rem;
+    margin: 0.5rem 1rem 0.4rem 1rem;
+    background-color: black;
 }
 
+/* .home>.button-logo:hover {
+    background: red;
+} */
+
+.home>.button-logo:active {
+    background: red;
+}
+
+.home>.button-logo::before {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: var(--color-button);
+    position: absolute;
+    content: "";
+    top: 0.1rem;
+    left: 0.1rem;
+  
+}
+
+.my-story.home>.button-logo>a {
+    background-image: url(/assets/icon-story.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3.5rem;
+	height: 3.5rem;
+    margin: 0.8rem 0 0 0.7rem;
+}
+
+.armory.home>.button-logo>a {
+    background-image: url(/assets/icon-armory.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3.2rem;
+	height: 3.2rem;
+	margin: 0.9rem 0 0 0.9rem;
+}
+
+.skills.home>.button-logo>a {
+    background-image: url(/assets/icon-skills.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3.5rem;
+	height: 3.5rem;
+	margin: 0.7rem 0 0 0.7rem;
+}
+
+.graveyard.home>.button-logo>a {
+    background-image: url(/assets/icon-cemetery.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3.2rem;
+	height: 3.2rem;
+	margin: 0.9rem 0 0 1rem;
+}
 /* home-page */
 
 body {
@@ -128,26 +191,63 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    filter: drop-shadow(1px 1px 5px rgb(24, 69, 113));
+}
+
+.home>.button-title {
+    width: 100%;
+    text-align: center;
 }
 
 .home>.button-title>a {
-    background-color: var(--color-background-title);
+    background-color: var(--color-background-text);
     color: var(--color-text-button);
     text-decoration: none;
     text-align: center;
     font-size: var(--font-size-button);
     font-family: var(--font-family);
-    padding: 0.2rem;
+    font-weight: var(--font-weight-cta);
+    padding: 0.3rem;
     border-radius: var(--little-border-radius);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px black;
 }
 
-.geralt-main-pic.home {
+/* .home>.button-title>a:hover {
+    font-size: 110%;
+    background: grey;
+} */
 
-    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
-    background-image: url(/assets/geralt-main.jpeg);
+.home>.button-title>a:active {
+    font-size: 110%;
+    background: grey;
+}
+
+/* .home>.button-title>a:hover {
+    
+} */
+.geralt-main-pic.home {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.75rem;
     height: 18.75rem;
-    margin: 3rem 3rem 0 3rem;
+    margin: 0rem 3rem 0 3rem;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.geralt-main-pic.home::before {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    width: 18.60rem;
+    height: 18.55rem;
+    position: absolute;
+    content: "";
+    top: 0.1rem;
+    left: 0.08rem;
+    background-image: url(/assets/geralt-main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .geralt-name.home {
@@ -156,6 +256,7 @@ body {
     text-align: center;
     font-size: var(--font-size-character-name);
     font-family: var(--font-family);
+    font-weight: var(--font-weight-cta);
 }
 
 
