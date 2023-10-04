@@ -189,9 +189,28 @@ body {
     align-items: center;
 }
 
-.section-text {
-    display: block;
-    align-items: center;
+
+/* graveyard-page */
+#graveyard {
+    background-image: url("/../assets/background.jpeg");
+    background-size: cover;
+}
+
+#graveyard {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: var(--font-size-text-thanks);
+    padding-top: 15%;
+}
+
+#graveyard h2 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: var(--font-size-title);
+    color: var(--color-text-title);
+}
+
+.global-zone-text {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -200,7 +219,14 @@ body {
     border-radius: var(--big-border-radius);
     background-color: var(--color-background-text);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: var(--font-size-text);
+}
+
+#graveyard span {
+    text-decoration: underline;
+}
+
+#graveyard li {
+    padding: 0.5rem 0;
 }
 
 

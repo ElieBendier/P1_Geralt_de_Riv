@@ -66,11 +66,20 @@
         </div>
     </section>
     <section class="section-bloc" id="graveyard">
+        <div class="global-zone-text">
         <div class="section-title">
-            <h2>My Cock's Dead enemies</h2>
+            <h2>Graveyard</h2>
         </div>
         <div class="section-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
+    <p>
+        Here are some of my famous exploits : </br>
+        <ul>
+        <li><span id="striga"> Striga</span> : Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice ! </br></li>
+        <li><span id="krallach">Krallach</span> : Hideous, but terribly effective. Got to be careful to deal with them. </br></li>
+        <li><span id="bruxa">Bruxa</span> : It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me ! </br></li>
+        <li><span id="gouls">Gouls</span> : I killed so much of them, they are so invasive ... </li>
+</p>
+        </div>
         </div>
     </section>
 
