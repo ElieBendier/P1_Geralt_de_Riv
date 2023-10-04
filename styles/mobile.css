@@ -18,7 +18,7 @@
     --font-size-button: 1rem;
     --font-size-title: 1.5rem;
     --font-size-character-name: 2rem;
-    --font-size-text: 1rem;
+    --font-size-text: 0.8em;
     --font-size-text-form: 0.8rem;
 
     --big-border-radius: 1rem;
@@ -270,17 +270,6 @@ a:active {
     display: none;
 }
 
-#my-story {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    padding: 1rem;
-    border: 1px solid var(--color-text-title);
-    border-radius: var(--big-border-radius);
-    background-color: var(--color-background-text);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
 .section-title {
     display: block;
     margin-left: auto;
@@ -298,9 +287,26 @@ a:active {
     align-items: center;
 }
 
-.section-text {
-    display: block;
-    align-items: center;
+/* graveyard-page */
+
+#graveyard, #armory, #skills, #my-story {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: var(--font-size-text-thanks);
+    padding-top: 15%;
+    padding-bottom: 25%;
+    background-image: url("/../assets/background.jpeg");
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: var(--font-size-title);
+    color: var(--color-text-title);
+}
+
+.global-zone-text {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -309,7 +315,28 @@ a:active {
     border-radius: var(--big-border-radius);
     background-color: var(--color-background-text);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: var(--font-size-text);
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: var(--font-size-text);
+}
+
+span {
+    text-decoration: underline;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+#graveyard img {
+    width: 25%;
+    float: left;
+    transition: 0.3s ease-in-out;
+    border-radius: var(--little-border-radius);
+}
+
+#graveyard img:hover {
+    transform: scale(2.5);
 }
 
 
