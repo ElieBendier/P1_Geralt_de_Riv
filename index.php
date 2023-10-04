@@ -35,12 +35,12 @@
                     <a href="#armory">Armory</a>
                 </div>
             </div>
-
+        <div class="main-pic-box">
             <div>
                 <div class="geralt-main-pic home"></div>
                 <h1 class="geralt-name home">Geralt De Riv</h1>
             </div>
-
+        </div>
             <div class="button skills home">
                 <div class="button-logo">
                     <a href="#skills"></a>

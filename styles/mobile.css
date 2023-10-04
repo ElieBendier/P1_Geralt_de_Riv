@@ -116,14 +116,6 @@ footer {
     background-color: black;
 }
 
-/* .home>.button-logo:hover {
-    background: red;
-} */
-
-.home>.button-logo:active {
-    background: red;
-}
-
 .home>.button-logo::before {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 4.8rem;
@@ -132,10 +124,16 @@ footer {
     position: absolute;
     content: "";
     top: 0.1rem;
-    left: 0.1rem;
-  
+    left: 0.1rem; 
 }
 
+/* .home>.button-logo:hover {
+    background: red;
+} */
+
+.home>.button-logo:active {
+    background: red;
+}
 .my-story.home>.button-logo>a {
     background-image: url(/assets/icon-story.png);
     background-size: cover;
@@ -143,7 +141,7 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.5rem;
-	height: 3.5rem;
+    height: 3.5rem;
     margin: 0.8rem 0 0 0.7rem;
 }
 
@@ -154,8 +152,8 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.2rem;
-	height: 3.2rem;
-	margin: 0.9rem 0 0 0.9rem;
+    height: 3.2rem;
+    margin: 0.9rem 0 0 0.9rem;
 }
 
 .skills.home>.button-logo>a {
@@ -165,8 +163,8 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.5rem;
-	height: 3.5rem;
-	margin: 0.7rem 0 0 0.7rem;
+    height: 3.5rem;
+    margin: 0.7rem 0 0 0.7rem;
 }
 
 .graveyard.home>.button-logo>a {
@@ -176,9 +174,10 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.2rem;
-	height: 3.2rem;
-	margin: 0.9rem 0 0 1rem;
+    height: 3.2rem;
+    margin: 0.9rem 0 0 1rem;
 }
+
 /* home-page */
 
 body {
@@ -226,6 +225,13 @@ body {
 /* .home>.button-title>a:hover {
     
 } */
+
+.main-pic-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .geralt-main-pic.home {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.75rem;
@@ -279,7 +285,6 @@ body {
     align-items: center;
 }
 
-
 /* graveyard-page */
 
 #graveyard, #armory, #skills, #my-story {
@@ -317,8 +322,19 @@ span {
     text-decoration: underline;
 }
 
-#graveyard li {
+li {
     padding: 0.5rem 0;
+}
+
+#graveyard img {
+    width: 25%;
+    float: left;
+    transition: 0.3s ease-in-out;
+    border-radius: var(--little-border-radius);
+}
+
+#graveyard img:hover {
+    transform: scale(2.5);
 }
 
 

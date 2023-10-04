@@ -2,7 +2,7 @@
 
 <div id="section-page">
 
-    <div class="button my-story section">
+    <div class="button my-story">
         <div class="button-logo">
             <a href="#my-story"></a>
         </div>
@@ -10,7 +10,7 @@
             <a href="#my-story">MY STORY</a>
         </div>
     </div>
-    <div class="button armory section">
+    <div class="button armory">
         <div class="button-logo">
             <a href="#armory"></a>
         </div>
@@ -19,12 +19,12 @@
         </div>
     </div>
 
-    <div class="geralt-main-pic section"></div>
+    <div class="geralt-main-pic"></div>
     <div class="geralt-name section">
         <h1>Geralt De Riv</h1>
     </div>
 
-    <div class="button skills section">
+    <div class="button skills">
         <div class="button-logo">
             <a href="#skills"></a>
         </div>
@@ -32,7 +32,7 @@
             <a href="#skills">Skills</a>
         </div>
     </div>
-    <div class="button graveyard section">
+    <div class="button graveyard">
         <div class="button-logo">
             <a href="#graveyard"></a>
         </div>
@@ -79,10 +79,20 @@
     <section class="section-bloc" id="skills">
         <div class="global-zone-text">
         <div class="section-title">
-            <h2>My Cock Skills</h2>
+            <h2>Skills</h2>
         </div>
         <div class="section-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
+            <p>
+                Take a look at what I'm capable of</br>
+                <ul>
+                    <li><span>Accelerated Healing</span> : I have exceptional powers of regeneration. I got the throat slice one time, took me months to get over it.</br></li>
+                    <li><span>Extended Lifespan</span> : I have already lived several centuries and I do not age beyond my prime, making me immune to natural death. </br></li>
+                    <li><span>Weapons Mastery</span> : I'm able to use all weapons to kill every monster that bother you.</br></li>
+                    <li><span>Lightning Reflexes</span> : My reaction speed is ten times faster than normal humans.</br></li>
+                    <li><span>Flow of Anger</span> : It's better that you don't know what it's all about... but in case of last necessity...</li>
+                </ul>
+            </p>
+        </div>
         </div>
         </div>
     </section>
@@ -92,14 +102,15 @@
             <h2>Graveyard</h2>
         </div>
         <div class="section-text">
-    <p>
-        Here are some of my famous exploits : </br>
-        <ul>
-        <li><span id="striga"> Striga</span> : Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice ! </br></li>
-        <li><span id="krallach">Krallach</span> : Hideous, but terribly effective. Got to be careful to deal with them. </br></li>
-        <li><span id="bruxa">Bruxa</span> : It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me ! </br></li>
-        <li><span id="gouls">Gouls</span> : I killed so much of them, they are so invasive ... </li>
-</p>
+            <p>
+                Here are some of my famous exploits</br>
+                <ul>
+                    <li><img src="/../assets/striga.png" alt="Here is a striga !"><span>Striga</span> : Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice ! </br></li>
+                    <li><img src="/../assets/krallach.webp" alt="Here is a krallach !"><span>Krallach</span> : Hideous, but terribly effective. Got to be careful to deal with them. </br></li>
+                    <li><img src="/../assets/bruxa.png" alt="Here is a bruxa !"><span>Bruxa</span> : It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me ! </br></li>
+                    <li><img src="/../assets/ghoul.jpeg" alt="Here is a ghoul !"><span>Ghouls</span> : I killed so much of them, they are so invasive ... </li>
+                </ul>
+            </p>
         </div>
         </div>
     </section>
