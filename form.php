@@ -51,10 +51,6 @@
             </form>
         </div>
 
-        <div class="button" id="arrow">
-            <button type="button"></button>
-        </div>
-
         <div>
             <button type="submit" form="hireme" value="Update">SEND !</button>
         </div>

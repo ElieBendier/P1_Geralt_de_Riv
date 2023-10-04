@@ -31,46 +31,63 @@ html {
 }
 
 body {
-    background-image: url("../assets/background.jpeg");
+    background-image: url(/assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-main {
-    padding: 3rem 0;
-}
 
-/* header & footer */
+/* --- header & footer --- */
+
 
 header,
 footer {
-    display: block;
-    width: 100%;
-    height: 13%;
-    min-height: 2rem;
-    position: fixed;
-    background-color: var(--color-frame);
     z-index: 1;
+    display: block;
+    position: fixed;
+
+    width: 100%;
+    height: 8vh;
+    min-height: 3rem;
+
+    background-color: var(--color-frame);
 }
 
 header {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 70% 30%, 30% 30%, 0% 50%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
 }
 
 footer {
-    clip-path: polygon(20% 70%, 80% 70%, 100% 40%, 100% 100%, 0% 100%, 0% 40%);
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 85% 50%, 15% 50%, 0% 0%);
     bottom: 0;
 }
 
-/* CTA */
+
+/* --- main --- */
+
+main {
+    padding: 8vh 0;
+}
+
+#home-page,
+#section-page,
+#form-page {
+    height: 84vh;
+}
+
+/* --- CTA --- */
+
 
 #cta a {
     z-index: 2;
 
-
     width: 50%;
     min-width: 150px;
+
     height: 8%;
     min-height: 2.5rem;
     max-height: 3rem;
+
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 2rem;
@@ -98,25 +115,29 @@ footer {
 
 }
 
-
 #cta a:active {
     box-shadow: 1px 1px 5px black, .5px .5px 5px black inset;
     text-shadow: 0.5px 0.5px 2px black;
 }
 
-/* button */
 
-.home>.button-logo {
+/* --- button --- */
+
+
+.button-logo {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    display: inline-block;
     position: relative;
     height: 5rem;
     width: 5rem;
     margin: 0.5rem 1rem 0.4rem 1rem;
     background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.home>.button-logo::before {
+.button-logo::before {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 4.8rem;
     height: 4.8rem;
@@ -124,115 +145,83 @@ footer {
     position: absolute;
     content: "";
     top: 0.1rem;
-    left: 0.1rem; 
+    left: 0.1rem;
 }
 
-/* .home>.button-logo:hover {
-    background: red;
-} */
-
-.home>.button-logo:active {
-    background: red;
+.button-logo a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
 }
-.my-story.home>.button-logo>a {
+
+.my-story .button-logo a {
     background-image: url(/assets/icon-story.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: 0.8rem 0 0 0.7rem;
 }
 
-.armory.home>.button-logo>a {
+.armory .button-logo a {
     background-image: url(/assets/icon-armory.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 3.2rem;
-    height: 3.2rem;
-    margin: 0.9rem 0 0 0.9rem;
 }
 
-.skills.home>.button-logo>a {
+.skills .button-logo a {
     background-image: url(/assets/icon-skills.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: 0.7rem 0 0 0.7rem;
 }
 
-.graveyard.home>.button-logo>a {
+.graveyard .button-logo a {
     background-image: url(/assets/icon-cemetery.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 3.2rem;
-    height: 3.2rem;
-    margin: 0.9rem 0 0 1rem;
+    margin-left: 0.3rem;
 }
 
-/* home-page */
 
-body {
-    background-image: url(/assets/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#home-page {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    filter: drop-shadow(1px 1px 5px rgb(24, 69, 113));
-}
-
-.home>.button-title {
+.button-title {
     width: 100%;
     text-align: center;
 }
 
-.home>.button-title>a {
+.button-title a {
     background-color: var(--color-background-text);
+
     color: var(--color-text-button);
     text-decoration: none;
     text-align: center;
     font-size: var(--font-size-button);
     font-family: var(--font-family);
     font-weight: var(--font-weight-cta);
+
     padding: 0.3rem;
     border-radius: var(--little-border-radius);
     border: 1px solid black;
+
     box-shadow: 1px 1px 5px black;
 }
 
-/* .home>.button-title>a:hover {
-    font-size: 110%;
-    background: grey;
-} */
-
-.home>.button-title>a:active {
+.button-title a:hover,
+a:active {
     font-size: 110%;
     background: grey;
 }
 
-/* .home>.button-title>a:hover {
-    
-} */
+/* --- home-page --- */
 
-.main-pic-box {
+
+#home-page {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* height: 84vh; */
+
+    filter: drop-shadow(1px 1px 5px rgb(24, 69, 113));
 }
 
-.geralt-main-pic.home {
+#home-page .geralt-main {
+    width: 100%;
+    margin: 2rem 50%;
+}
+
+/* border du clip-path */
+#home-page .geralt-pic {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.75rem;
     height: 18.75rem;
@@ -242,7 +231,7 @@ body {
     position: relative;
 }
 
-.geralt-main-pic.home::before {
+#home-page .geralt-pic::before {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.60rem;
     height: 18.55rem;
@@ -250,15 +239,17 @@ body {
     content: "";
     top: 0.1rem;
     left: 0.08rem;
+
     background-image: url(/assets/geralt-main.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.geralt-name.home {
+#home-page .geralt-name {
     color: var(--color-background-title);
     width: 100%;
+
     text-align: center;
     font-size: var(--font-size-character-name);
     font-family: var(--font-family);
@@ -266,7 +257,18 @@ body {
 }
 
 
-/* section-page */
+/* --- section-page --- */
+
+#section-page {
+    margin-top: 8vh;
+}
+
+/* do not display geralt & section menu on mobile */
+#section-page .button,
+#section-page .geralt-main,
+#section-page .geralt-name {
+    display: none;
+}
 
 .section-title {
     display: block;
@@ -338,7 +340,9 @@ li {
 }
 
 
-/* form-page */
+/* --- form-page --- */
+
+
 #form-page {
     background-image: url("/../assets/background.jpeg");
     background-size: cover;

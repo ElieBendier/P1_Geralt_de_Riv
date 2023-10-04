@@ -19,10 +19,10 @@
         </div>
     </div>
 
-    <div class="geralt-main-pic"></div>
-    <div class="geralt-name section">
-        <h1>Geralt De Riv</h1>
+    <div class="geralt-main">
+        <div class="geralt-pic"></div>
     </div>
+    <h1 class="geralt-name">Geralt De Riv</h1>
 
     <div class="button skills">
         <div class="button-logo">
@@ -56,7 +56,6 @@
             <br>
             <li> Come with me, if you dare, on a trip to discover everything I can provide you for all your quests needs.</li>
         </ul>
-        </div>
         </div>
         </div>
     </section>
@@ -115,7 +114,6 @@
         </div>
     </section>
 
-    <div class="button" id="arrow"></div>
 </div>
 
 </html>
