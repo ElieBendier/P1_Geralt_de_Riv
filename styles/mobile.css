@@ -116,14 +116,6 @@ footer {
     background-color: black;
 }
 
-/* .home>.button-logo:hover {
-    background: red;
-} */
-
-.home>.button-logo:active {
-    background: red;
-}
-
 .home>.button-logo::before {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 4.8rem;
@@ -132,10 +124,16 @@ footer {
     position: absolute;
     content: "";
     top: 0.1rem;
-    left: 0.1rem;
-
+    left: 0.1rem; 
 }
 
+/* .home>.button-logo:hover {
+    background: red;
+} */
+
+.home>.button-logo:active {
+    background: red;
+}
 .my-story.home>.button-logo>a {
     background-image: url(/assets/icon-story.png);
     background-size: cover;
@@ -227,6 +225,13 @@ body {
 /* .home>.button-title>a:hover {
     
 } */
+
+.main-pic-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .geralt-main-pic.home {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.75rem;
