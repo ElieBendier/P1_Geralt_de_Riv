@@ -70,7 +70,6 @@ main {
 }
 
 #home-page,
-#section-page,
 #form-page {
     height: 84vh;
 }
@@ -225,7 +224,6 @@ a:active {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     width: 18.75rem;
     height: 18.75rem;
-    margin: 0rem 3rem 0 3rem;
     background-color: black;
     display: inline-block;
     position: relative;
