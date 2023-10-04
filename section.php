@@ -42,20 +42,39 @@
     </div>
 
     <section class="section-bloc" id="my-story">
+        <div class="global-zone-text">
         <div class="section-title">
             <h2>My Story</h2>
         </div>
         <div class="section-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
+        <ul>
+            <li> I, Geralt de Riv, am a sorceler. And the <span>best</span> you could stumble upon while roaming the dangerous land of the Continent.</li>
+            <br>
+            <li> Just as my companions, my <span>incredible talents</span> where discovered early and I was sent to the one and only school of the Wolf where I learned all the necessary skills to become a <span>Grandmaster</span>.</li>
+            <br>
+            <li> My base of operations is <span>Kaer Morhen</span> : a secret and luxurious den hidden in the myst of the highest mountains of the northen kingdom of Kaedwen.</li>
+            <br>
+            <li> Come with me, if you dare, on a trip to discover everything I can provide you for all your quests needs.</li>
+        </ul>
+        </div>
         </div>
         </div>
     </section>
     <section class="section-bloc" id="armory">
+        <div class="global-zone-text">
         <div class="section-title">
-            <h2>My Cockring</h2>
+            <h2>Armory</h2>
         </div>
         <div class="section-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
+        <ul>
+        <li>Get ready to feast upon the magnificence of the weapons I will use to gracefully and violently resolve your problems :</li>
+        <br>
+        <li>Although I only hunt monsters, we all know how a Human can become one. For these specifics issues, I always carry the best steel sword you could dream of : <span>Ard'aenye</span>. Found in the grave of graf Corbus de Ruyter, it deals +200% damages and +3% chances of inflicting burn : <span>Make them taste the fire of justice !</span></li>
+        <br>
+        <li>For the litteral monsters : The lady of the lake herself bestowed upon me her very best silver sword : <span>Aerondight</span>. This magic blade is light, sharp as a razor, and fits the hand neatly. It is also said the it have a destiny of its own and that time only will tell what it is. If you are reading this, I guess <span>her destiny is to fulfill your wildest monster hunting dreams</span> !<li>
+        <br>
+        </ul>
+        </div>
     </section>
     <section class="section-bloc" id="skills">
         <div class="global-zone-text">
@@ -73,6 +92,7 @@
                     <li><span>Flow of Anger</span> : It's better that you don't know what it's all about... but in case of last necessity...</li>
                 </ul>
             </p>
+        </div>
         </div>
         </div>
     </section>
