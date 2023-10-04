@@ -1,29 +1,79 @@
-/* header */
+/* --- header --- */
 
 
 
-/* footer */
+/* --- footer --- */
 
 
 
-/* CTA */
+/* --- CTA --- */
 
-#cta {
+
+#cta a {
     width: 75%;
-
     border-radius: 1rem;
 }
 
-/* button */
+
+/* --- button --- */
 
 
+#home-page .button {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 10%;
+}
 
-/* home-page */
+#home-page .button-logo {
+    height: 8rem;
+    width: 8rem;
+}
+
+#home-page .button-logo::before {
+    width: 8rem;
+    height: 8rem;
+}
+
+#home-page .button-logo a {
+    width: 4rem;
+    height: 4rem;
+}
+
+#home-page .button-title {
+    width: 50%;
+}
 
 
-
-/* section-page */
-
+/* --- home-page --- */
 
 
-/* form-page */
+#home-page .geralt-name {
+    order: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+    width: 50%;
+    margin: 2rem 25%;
+    padding: 2rem;
+
+    border: 2px solid black;
+    border-radius: 1rem;
+
+    color: var(--color-text);
+    background-color: var(--color-background-text);
+}
+
+
+/* --- section-page --- */
+
+#section-page .button,
+#section-page .geralt-main,
+#section-page .geralt-name {
+    display: block;
+}
+
+
+/* --- form-page --- */

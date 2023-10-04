@@ -2,7 +2,7 @@
 
 <div id="section-page">
 
-    <div class="button my-story section">
+    <div class="button my-story">
         <div class="button-logo">
             <a href="#my-story"></a>
         </div>
@@ -10,7 +10,7 @@
             <a href="#my-story">MY STORY</a>
         </div>
     </div>
-    <div class="button armory section">
+    <div class="button armory">
         <div class="button-logo">
             <a href="#armory"></a>
         </div>
@@ -19,12 +19,12 @@
         </div>
     </div>
 
-    <div class="geralt-main-pic section"></div>
-    <div class="geralt-name section">
-        <h1>Geralt De Riv</h1>
+    <div class="geralt-main">
+        <div class="geralt-pic"></div>
     </div>
+    <h1 class="geralt-name">Geralt De Riv</h1>
 
-    <div class="button skills section">
+    <div class="button skills">
         <div class="button-logo">
             <a href="#skills"></a>
         </div>
@@ -32,7 +32,7 @@
             <a href="#skills">Skills</a>
         </div>
     </div>
-    <div class="button graveyard section">
+    <div class="button graveyard">
         <div class="button-logo">
             <a href="#graveyard"></a>
         </div>
@@ -47,7 +47,6 @@
         </div>
         <div class="section-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur minus atque magni aliquam at maxime. Neque mollitia quaerat quis non, pariatur architecto atque esse, impedit ipsam reiciendis vero earum.
-        </div>
         </div>
     </section>
     <section class="section-bloc" id="armory">
@@ -74,7 +73,6 @@
         </div>
     </section>
 
-    <div class="button" id="arrow"></div>
 </div>
 
 </html>

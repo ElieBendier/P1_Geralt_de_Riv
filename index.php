@@ -19,7 +19,7 @@
     <main>
         <div id="home-page">
 
-            <div class="button my-story home">
+            <div class="button my-story">
                 <div class="button-logo">
                     <a href="#my-story"></a>
                 </div>
@@ -27,7 +27,7 @@
                     <a href="#my-story">My Story</a>
                 </div>
             </div>
-            <div class="button armory home">
+            <div class="button armory">
                 <div class="button-logo">
                     <a href="#armory"></a>
                 </div>
@@ -36,12 +36,12 @@
                 </div>
             </div>
 
-            <div>
-                <div class="geralt-main-pic home"></div>
-                <h1 class="geralt-name home">Geralt De Riv</h1>
+            <div class="geralt-main">
+                <div class="geralt-pic"></div>
             </div>
+            <h1 class="geralt-name">Geralt De Riv</h1>
 
-            <div class="button skills home">
+            <div class="button skills">
                 <div class="button-logo">
                     <a href="#skills"></a>
                 </div>
@@ -49,7 +49,7 @@
                     <a href="#skills">Skills</a>
                 </div>
             </div>
-            <div class="button graveyard home">
+            <div class="button graveyard">
                 <div class="button-logo">
                     <a href="#graveyard"></a>
                 </div>
@@ -57,20 +57,20 @@
                     <a href="#graveyard">Graveyard</a>
                 </div>
             </div>
-
         </div>
-
-        <div class="button back"><a href="#home-page"></a></div>
 
         <?php
         include "section.php";
         include "form.php";
         ?>
 
-        <div id="cta">
-            <a href="#form-page">HIRE ME !</a>
-        </div>
     </main>
+
+    <div class="button back"><a href="#home-page"></a></div>
+
+    <div id="cta">
+        <a href="#form-page">HIRE ME !</a>
+    </div>
 
     <footer>
     </footer>
