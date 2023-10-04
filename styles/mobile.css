@@ -141,7 +141,7 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.5rem;
-	height: 3.5rem;
+    height: 3.5rem;
     margin: 0.8rem 0 0 0.7rem;
 }
 
@@ -152,8 +152,8 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.2rem;
-	height: 3.2rem;
-	margin: 0.9rem 0 0 0.9rem;
+    height: 3.2rem;
+    margin: 0.9rem 0 0 0.9rem;
 }
 
 .skills.home>.button-logo>a {
@@ -163,8 +163,8 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.5rem;
-	height: 3.5rem;
-	margin: 0.7rem 0 0 0.7rem;
+    height: 3.5rem;
+    margin: 0.7rem 0 0 0.7rem;
 }
 
 .graveyard.home>.button-logo>a {
@@ -174,9 +174,10 @@ footer {
     background-repeat: no-repeat;
     position: absolute;
     width: 3.2rem;
-	height: 3.2rem;
-	margin: 0.9rem 0 0 1rem;
+    height: 3.2rem;
+    margin: 0.9rem 0 0 1rem;
 }
+
 /* home-page */
 
 body {
@@ -295,25 +296,19 @@ body {
     align-items: center;
 }
 
-
-/* graveyard-page */
+/* skills-page */
+#skills,
 #graveyard {
     background-image: url("/../assets/background.jpeg");
     background-size: cover;
 }
 
+#skills,
 #graveyard {
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-thanks);
     padding-top: 15%;
-}
-
-#graveyard h2 {
-    text-align: center;
-    line-height: 2.5rem;
-    font-size: var(--font-size-title);
-    color: var(--color-text-title);
 }
 
 .global-zone-text {
@@ -327,12 +322,30 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#graveyard span {
+h2 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: var(--font-size-title);
+    color: var(--color-text-title);
+}
+
+span {
     text-decoration: underline;
 }
 
-#graveyard li {
+li {
     padding: 0.5rem 0;
+}
+
+#graveyard img {
+    width: 25%;
+    float: left;
+    transition: 0.3s ease-in-out;
+    border-radius: var(--little-border-radius);
+}
+
+#graveyard img:hover {
+    transform: scale(2.5);
 }
 
 
