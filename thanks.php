@@ -1,23 +1,24 @@
-<html>
-
 <?php
+
 $fullName = $_POST["user_fullname"];
 $address = $_POST["user_address"];
 $phone = $_POST["user_phone_number"];
 $monster_type = $_POST["monster_type"];
 $monster_size = $_POST["monster_size"];
 $message = $_POST["user_message"];
+
 ?>
 
-    <head>
-    <html lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/thanks.css">
     <title>Thanks page</title>
-    </head>
-    <body>
+</head>
+
+<body>
     <div id="thanks-page">
     <section class="thanks-bloc">
         <div class="thanks-content">
@@ -43,5 +44,6 @@ Geralt de Riv
 </div>
 <button>COME BACK TO HOME</button>    
 </div>
-    </body>
+
+</body>
 </html>
