@@ -16,6 +16,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = "An address is required !";
     if(empty($phone) || trim($phone) === '')
         $errors[] = "A phone number is required !";
+    if (!filter_var($phone, FILTER_VALIDATE_INT)) {
+        $errors[] = "You must enter a correct phone number format";}
     if(empty($monster_type) || trim($monster_type) === '')
         $errors[] = "You have to select a monster !";
     if(empty($monster_size) || trim($monster_size) === '')
@@ -37,36 +39,48 @@ if (!empty($errors)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="styles/desktop.css">
     <link rel="stylesheet" type="text/css" href="styles/thanks.css">
     <title>Thanks page</title>
 </head>
 
 <body>
-    <div id="thanks-page">
-    <section class="thanks-bloc">
-        <div class="thanks-content">
-            <div class="thanks-title">
-                <h2>THANKS !</h2>
-            </div>
-            <div>
-            <p>
-    Hello <?= $fullName ?>, we got your message. </br>
-</br>
-    You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?> </br>
-</br>
-    But luckily for you, I like awkward positions. Your address is : <?= $address ?>, I will call you at <?= $phone ?> when I will be around. </br>
-</br>
-    Don't try anything stupid, just wait for me.</br>
-</br>
-Geralt de Riv
+    <header>
+    </header>
 
-        <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
-            </p>
-            </div>
+        <main>
 
-</div>
-<a href="index.php">COME BACK TO HOME</a>    
-</div>
+        <div id="thanks-page">
+        <section class="thanks-bloc">
+            <div class="thanks-content">
+                <div class="thanks-title">
+                    <h2>THANKS !</h2>
+                </div>
+                <div>
+                <p>
+                    Hello <?= $fullName ?>, we got your message. </br>
+                </br>
+                    You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?> </br>
+                </br>
+                    But luckily for you, I like awkward positions. Your address is : <?= $address ?>, I will call you at <?= $phone ?> when I will be around. </br>
+                </br>
+                    Don't try anything stupid, just wait for me.</br>
+                </br>
+                Geralt de Riv
+
+                        <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
+                            </p>
+                            </div>
+
+        </main>
+
+    <div id="cta">
+        <a id="hire-me" href="index.php">HOME</a>
+    </div>
+
+    <footer>
+    </footer>
 
 </body>
 </html>
