@@ -55,12 +55,12 @@ footer {
     height: 8vh;
     min-height: 3rem;
     background-color: var(--color-frame);
-    
+
 }
 
 header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
-    
+
 }
 
 /* header::before{
@@ -336,11 +336,11 @@ h2 {
     font-size: var(--font-size-text);
 }
 
-span.monster-name {
+span {
     text-decoration: underline;
 }
 
-li {
+#monsters li {
     display: flex;
     padding: 1rem 0;
 }
