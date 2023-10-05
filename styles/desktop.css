@@ -106,3 +106,76 @@
 
 
 /* --- form-page --- */
+
+.section-bloc {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    background-image: url(/assets/main-geralt-pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 25% 42%;
+    background-size: 20%;
+}
+
+.section-bloc .geralt-pic {
+    display: none;
+}
+
+.section-bloc .button-title {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.section-bloc .my-story {
+    position: relative;
+    top: 5%;
+    left: 67%;
+    width: 22%;
+}
+
+.section-bloc .armory {
+    position: relative;
+    bottom: 5%;
+    left: 33%;
+    width: 22%;
+}
+
+
+.section-bloc .skills {
+    position: relative;
+    top: 2%;
+    left: 10%;
+    width: 22%;
+}
+
+.section-bloc .graveyard {
+    position: relative;
+    top: 5%;
+    left: 33%;
+    width: 22%;
+}
+
+.section-bloc .desktop {
+    position: relative;
+    bottom: 10%;
+    left: 30%;
+    width: 22%;
+}
+
+.section-bloc .mobile {
+    display: none;
+}
+
+.section-bloc .button.back {
+    width: 5rem;
+    height: 5rem;
+}
+
+.bloc2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
