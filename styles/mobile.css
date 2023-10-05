@@ -55,15 +55,25 @@ footer {
     height: 8vh;
     min-height: 3rem;
 
-    background-color: var(--color-frame);
+    /* background-color: var(--color-frame); */
 }
 
 header {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
-}
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%); */
+    background-image: url(/assets/mobile-header.png);
+    background-size: cover;
 
+
+}
+ /* header:before{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
+    background-color: black;
+    z-index : 0;
+ } */
 footer {
-    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 85% 50%, 15% 50%, 0% 0%);
+    /* clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 85% 50%, 15% 50%, 0% 0%); */
+    background-image: url(/assets/mobile-footer-frame.png);
+    background-size: cover;
     bottom: 0;
 }
 
