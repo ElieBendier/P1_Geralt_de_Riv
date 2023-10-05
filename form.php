@@ -52,7 +52,7 @@
         </div>
 
         <div>
-            <button type="submit" form="hireme" value="Update">SEND !</button>
+            <!-- <button type="submit" form="hireme" value="Update">SEND !</button> -->
         </div>
     </section>
 

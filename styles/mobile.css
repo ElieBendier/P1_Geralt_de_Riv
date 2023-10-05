@@ -79,39 +79,30 @@ main {
 #cta a,
 #cta button {
     z-index: 2;
-
     width: 50%;
     min-width: 150px;
-
     height: 8%;
     min-height: 2.5rem;
     max-height: 3rem;
-
     margin: 0 auto;
     border: 1px solid black;
     border-radius: 2rem;
-
     box-shadow: 1px 1px 5px black;
-
     position: fixed;
     bottom: 0.8rem;
     left: 0;
     right: 0;
-
     background-color: var(--color-cta);
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
     text-decoration: none;
     font-size: 1.2rem;
     font-family: var(--font-family-cta);
     font-weight: var(--font-weight-cta);
     color: white;
-
     text-shadow: 0.2px 0.2px 1px black;
-
 }
 
 #cta a:active,
@@ -122,6 +113,8 @@ main {
 
 #cta button {
     display: none;
+    background-color: green;
+
 }
 
 /* --- button --- */
@@ -210,6 +203,7 @@ main {
 }
 
 #home-page .geralt-main {
+
     margin: 0 50%;
 }
 
@@ -218,6 +212,7 @@ main {
     width: 75vw;
 
     background-image: url(/assets/main-geralt-pic.png);
+  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

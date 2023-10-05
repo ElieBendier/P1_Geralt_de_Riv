@@ -68,7 +68,8 @@
 
     <div id="cta">
         <a id="hire-me" href="#form-page">HIRE ME !</a>
-        <button type="submit" form="hireme" value="Update">SEND !</button>
+
+        <button id="send" type="submit" form="hireme" value="Update">SEND !</button>
     </div>
 
     <footer>
@@ -76,3 +77,25 @@
 </body>
 
 </html>
+
+<script>
+// scroll event = 2700
+const hire_button = document.getElementById("hire-me");
+const send_button = document.getElementById("send")
+
+let last_scroll_position = 0;
+window.addEventListener("scroll", function (e) {
+    last_scroll_position = window.scrollY;
+    console.log("last_scroll_position",last_scroll_position)
+    if (last_scroll_position >= 2700){
+        hire_button.style.display = "none";
+        send_button.style.display = "flex";
+    }
+    else if(last_scroll_position <= 2700){
+            hire_button.style.display = "flex";
+            send_button.style.display = "none";
+        }
+
+})
+
+</script>

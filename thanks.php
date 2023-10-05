@@ -65,7 +65,7 @@ Geralt de Riv
             </div>
 
 </div>
-<button>COME BACK TO HOME</button>    
+<a href="index.php">COME BACK TO HOME</a>    
 </div>
 
 </body>
