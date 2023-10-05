@@ -22,7 +22,6 @@
     <div class="geralt-main">
         <div class="geralt-pic"></div>
     </div>
-    <h1 class="geralt-name">Geralt De Riv</h1>
 
     <div class="button skills">
         <div class="button-logo">
@@ -42,6 +41,55 @@
     </div>
 
     <section class="section-bloc" id="my-story">
+    <div class="bloc1">
+        <div class="button my-story">
+        <div class="button-logo">
+            <a href="#my-story"></a>
+        </div>
+        <div class="button-title">
+            <a href="#my-story">MY STORY</a>
+        </div>
+    </div>
+
+    <div class="button armory">
+        <div class="button-logo">
+            <a href="#armory"></a>
+        </div>
+        <div class="button-title">
+            <a href="#armory">Armory</a>
+        </div>
+    </div>
+
+        <div class="geralt-pic"></div>
+
+    <div class="button skills">
+        <div class="button-logo">
+            <a href="#skills"></a>
+        </div>
+        <div class="button-title">
+            <a href="#skills">Skills</a>
+        </div>
+    </div>
+
+    <div class="button graveyard">
+        <div class="button-logo">
+            <a href="#graveyard"></a>
+        </div>
+        <div class="button-title">
+            <a href="#graveyard">Graveyard</a>
+        </div>
+    </div>
+    <div class="button back desktop">
+        <div class="button-logo ">
+            <a href="#top"></a>
+        </div>
+        <div class="button-title">    
+            <a href="">Home</a>
+        </div>
+    </div>
+</div>
+
+    <div class="bloc2">
         <div class="global-zone-text">
         <div class="section-title">
             <h2>My Story</h2>
@@ -58,9 +106,11 @@
         </ul>
         </div>
         </div>
-        <div class="back button-logo"><a href=""></a></div>
+    </div>
+    <div class="back button-logo mobile"><a href=""></a></div>
 
     </section>
+
     <section class="section-bloc" id="armory">
         <div class="global-zone-text">
         <div class="section-title">
