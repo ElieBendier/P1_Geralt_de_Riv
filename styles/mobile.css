@@ -345,7 +345,7 @@ li {
 /* --- form-page --- */
 
 
-#form-page {
+#form-page, #thanks-page, #error-page {
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-form);
@@ -368,7 +368,7 @@ li {
     align-items: center;
 }
 
-#form-page .form-title {
+#form-page .form-title, #thanks-page .thanks-title, #error-page .error-title {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -382,7 +382,7 @@ li {
     margin-bottom: 7%;
 }
 
-#form-page h2 {
+#form-page h2, #thanks-page h2, #error-page h2 {
     text-align: center;
     line-height: 2.5rem;
     font-size: var(--font-size-title);

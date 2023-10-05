@@ -11,15 +11,15 @@
             <ul>
                 <li>
                     <label for="fullName">Full name&nbsp;:</label>
-                    <input type="text" id="fullName" name="user_fullname" required/>
+                    <input type="text" id="fullName" name="user_fullname" placeholder="Your name here" required/>
                 </li>
                 <li>
                     <label for="address">Address&nbsp;:</label>
-                    <input type="text" id="address" name="user_address" required/>
+                    <input type="text" id="address" name="user_address" placeholder="Your address here" required/>
                 </li>
                 <li>
                     <label for="phone">Phone number&nbsp;:</label>
-                    <input type="tel" id="phone" name="user_phone_number" required/>
+                    <input type="tel" id="phone" name="user_phone_number" placeholder="Your phone number here" required/>
                 </li>
                 <li id="scrolling">
                     <label for="monster_type">Type of monster&nbsp;:</label>
@@ -45,7 +45,7 @@
                 </li>
                 <li>
                     <label for="message">Describe the monster&nbsp;:</label>
-                    <textarea id="message" name="user_message" required></textarea>
+                    <textarea id="message" name="user_message" placeholder="Your message here" required></textarea>
                 </li>
             </ul>
             </form>
