@@ -16,7 +16,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = "An address is required !";
     if(empty($phone) || trim($phone) === '')
         $errors[] = "A phone number is required !";
-    if (!filter_var($phone, FILTER_VALIDATE_INT)) {
+    if (!filter_var($phone, FILTER_SANITIZE_NUMBER_INT) || strlen($phone) != 10) {
         $errors[] = "You must enter a correct phone number format";}
     if(empty($monster_type) || trim($monster_type) === '')
         $errors[] = "You have to select a monster !";

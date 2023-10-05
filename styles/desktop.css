@@ -132,44 +132,45 @@
     display: none;
 }
 
-.section-bloc .button-title {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-}
-
 .section-bloc .my-story {
     position: relative;
-    top: 5%;
-    left: 67%;
-    width: 22%;
+    top: 6%;
+    left: 62.5%;
+    width: 25%;
 }
 
 .section-bloc .armory {
     position: relative;
     bottom: 5%;
-    left: 33%;
-    width: 22%;
+    left: 25%;
+    width: 25%;
 }
 
 .section-bloc .skills {
     position: relative;
-    top: 2%;
-    left: 10%;
-    width: 22%;
+    bottom: 6%;
+    left: 5%;
+    width: 25%;
 }
 
 .section-bloc .graveyard {
     position: relative;
-    top: 5%;
-    left: 33%;
-    width: 22%;
+    bottom: 3%;
+    left: 25%;
+    width: 25%;
 }
 
-.section-bloc .button.back {
-    width: 5rem;
-    height: 5rem;
+
+.section-bloc .desktop {
+    position: relative;
+    bottom: 14%;
+    left: 62.5%;
+    width: 25%;
+}
+
+.back .button-logo a {
+    background-image: url(/assets/icon-arrow.png);
+    background-position: center;
 }
 
 /* bloc-2 */
@@ -189,4 +190,3 @@
     justify-content: center;
 }
 
-/* --- form-page --- */

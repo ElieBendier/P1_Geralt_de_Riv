@@ -93,8 +93,8 @@ console.log(element)
  let last_scroll_position = 0;
  window.addEventListener("scroll", function (e) {
      last_scroll_position = window.scrollY;
-     console.log("last_scroll_position",last_scroll_position)
-     console.log("element", element)
+    //  console.log("last_scroll_position",last_scroll_position)
+    //  console.log("element", element)
      
      if (last_scroll_position >= (element*0.8)){
          hire_button.style.display = "none";

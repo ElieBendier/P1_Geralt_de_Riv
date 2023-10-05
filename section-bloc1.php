@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="button back desktop">
-                <div class="button-logo ">
+                <div class="button-logo">
                     <a href="#top"></a>
                 </div>
                 <div class="button-title">    
