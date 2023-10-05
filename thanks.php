@@ -1,12 +1,35 @@
 <html>
 
 <?php
-$fullName = $_POST["user_fullname"];
-$address = $_POST["user_address"];
-$phone = $_POST["user_phone_number"];
-$monster_type = $_POST["monster_type"];
-$monster_size = $_POST["monster_size"];
-$message = $_POST["user_message"];
+$fullName = htmlentities($_POST["user_fullname"]);
+$address = htmlentities($_POST["user_address"]);
+$phone = htmlentities($_POST["user_phone_number"]);
+$monster_type = htmlentities($_POST["monster_type"]);
+$monster_size = htmlentities($_POST["monster_size"]);
+$message = htmlentities($_POST["user_message"]);
+
+$errors = [];
+
+if($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if(empty($fullName) || trim($fullName) === '')
+        $errors[] = "A full name is required !";
+    if(empty($address) || trim($address) === '')
+        $errors[] = "An address is required !";
+    if(empty($phone) || trim($phone) === '')
+        $errors[] = "A phone number is required !";
+    if(empty($monster_type) || trim($monster_type) === '')
+        $errors[] = "You have to select a monster !";
+    if(empty($monster_size) || trim($monster_size) === '')
+        $errors[] = "You have to select a monster size !";
+    if(empty($message) || trim($message) === '')
+        $errors[] = "A message is required !";
+}
+
+if (!empty($errors)) {
+    require 'error.php';
+    die();
+}
+
 ?>
 
     <head>
