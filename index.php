@@ -66,10 +66,9 @@
 
     </main>
 
-    <div class="button back"><a href="#home-page"></a></div>
-
     <div id="cta">
-        <a href="#form-page">HIRE ME !</a>
+        <a id="hire-me" href="#form-page">HIRE ME !</a>
+        <button type="submit" form="hireme" value="Update">SEND !</button>
     </div>
 
     <footer>
