@@ -63,7 +63,14 @@
     border-radius: 1rem;
 
     color: var(--color-text);
+    font-size: var(--font-size-character-name);
+
     background-color: var(--color-background-text);
+}
+
+#home-page .geralt-pic {
+    height: 30rem;
+    width: 30rem;
 }
 
 
