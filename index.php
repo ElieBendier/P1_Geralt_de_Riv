@@ -68,7 +68,6 @@
 
     <div id="cta">
         <a id="hire-me" href="#form-page">HIRE ME !</a>
-
         <button id="send" type="submit" form="hireme" value="Update">SEND !</button>
     </div>
 
