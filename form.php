@@ -19,7 +19,7 @@
                 </li>
                 <li>
                     <label for="phone">Phone number&nbsp;:</label>
-                    <input type="tel" id="phone" name="user_phone_number" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Your phone number here" required/>
+                    <input type="tel" id="phone" name="user_phone_number" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder="Your phone number here" required/>
                 </li>
                 <li id="scrolling">
                     <label for="monster_type">Type of monster&nbsp;:</label>
