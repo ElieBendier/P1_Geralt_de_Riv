@@ -34,6 +34,7 @@ body {
     background-image: url(/assets/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -43,7 +44,6 @@ body {
 header,
 footer {
     z-index: 1;
-    display: block;
     position: fixed;
 
     width: 100%;
@@ -104,48 +104,43 @@ main {
     color: white;
     text-shadow: 0.2px 0.2px 1px black;
 }
+
 #cta a:active,
 #cta button:active {
     box-shadow: 1px 1px 5px black, .5px .5px 5px black inset;
     text-shadow: 0.5px 0.5px 2px black;
 }
+
 #cta button {
     display: none;
     background-color: green;
+
 }
 
 /* --- button --- */
 
-
 .button-logo {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    position: relative;
-    height: 3rem;
-    width: 3rem;
-    margin: 0.5rem 1rem 0.4rem 1rem;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.button-logo::before {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    width: 4.8rem;
-    height: 4.8rem;
-    background-color: var(--color-button);
-    position: absolute;
-    content: "";
-    top: 0.1rem;
-    left: 0.1rem;
+    height: 5rem;
+    width: 5rem;
+    margin: 1em;
+
+    background-image: url(/assets/hexagon-frame.png);
+    background-size: cover;
+    background-repeat: none;
+
+
 }
 
 .button-logo a {
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
     width: 3rem;
     height: 3rem;
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .my-story .button-logo a {
@@ -189,7 +184,7 @@ main {
 }
 
 .button-title a:hover,
-a:active {
+.button-title a:active {
     font-size: 110%;
     background: grey;
 }
@@ -208,30 +203,16 @@ a:active {
 }
 
 #home-page .geralt-main {
-    width: 100%;
-    margin: 0rem 50%;
+
+    margin: 0 50%;
 }
 
-/* border du clip-path */
 #home-page .geralt-pic {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    width: 12rem;
-    height: 12rem;
-    background-color: black;
-    display: inline-block;
-    position: relative;
-}
+    height: 75vw;
+    width: 75vw;
 
-#home-page .geralt-pic::before {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    width: 18.60rem;
-    height: 18.55rem;
-    position: absolute;
-    content: "";
-    top: 0.1rem;
-    left: 0.08rem;
-
-    background-image: url(/assets/geralt-main.jpeg);
+    background-image: url(/assets/main-geralt-pic.png);
+  
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,10 +220,12 @@ a:active {
 
 #home-page .geralt-name {
     color: var(--color-background-title);
+
     width: 100%;
+    margin-top: 1rem;
 
     text-align: center;
-    font-size: var(--font-size-character-name);
+    font-size: 8vw;
     font-family: var(--font-family);
     font-weight: var(--font-weight-cta);
 }
@@ -280,14 +263,15 @@ a:active {
 
 /* graveyard-page */
 
-#graveyard, #armory, #skills, #my-story {
+#graveyard,
+#armory,
+#skills,
+#my-story {
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-thanks);
     padding-top: 15%;
     padding-bottom: 25%;
-    background-image: url("/../assets/background.jpeg");
-    background-size: cover;
 }
 
 h2 {
@@ -335,8 +319,6 @@ li {
 
 
 #form-page {
-    background-image: url("/../assets/background.jpeg");
-    background-size: cover;
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-form);
