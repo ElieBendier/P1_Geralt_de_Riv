@@ -58,7 +58,7 @@
         </ul>
         </div>
         </div>
-        <div class="back button-logo"><a href="#home-page"></a></div>
+        <div class="back button-logo"><a href=""></a></div>
 
     </section>
     <section class="section-bloc" id="armory">
@@ -77,7 +77,7 @@
         </ul>
         </div>
         </div>
-        <div class="back button-logo"><a href="#home-page"></a></div>
+        <div class="back button-logo"><a href=""></a></div>
 
     </section>
     <section class="section-bloc" id="skills">
@@ -98,7 +98,7 @@
             </p>
         </div>
         </div>
-        <div class="back button-logo"><a href="#home-page"></a></div>
+        <div class="back button-logo"><a href=""></a></div>
         </div>
     </section>
     <section class="section-bloc" id="graveyard">
@@ -118,7 +118,7 @@
             </p>
         </div>
         </div>
-        <div class="back button-logo"><a href="#home-page"></a></div>
+        <div class="back button-logo"><a href=""></a></div>
 
     </section>
 
