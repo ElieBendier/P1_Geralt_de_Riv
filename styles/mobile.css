@@ -143,6 +143,16 @@ main {
     background-repeat: no-repeat;
 }
 
+.back {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+
+.back a {
+    background-image: url(/assets/icon-arrow.png);
+}
+
 .my-story .button-logo a {
     background-image: url(/assets/icon-story.png);
 }
@@ -212,7 +222,7 @@ main {
     width: 75vw;
 
     background-image: url(/assets/main-geralt-pic.png);
-  
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

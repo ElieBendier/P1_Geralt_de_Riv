@@ -58,6 +58,8 @@
         </ul>
         </div>
         </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
+
     </section>
     <section class="section-bloc" id="armory">
         <div class="global-zone-text">
@@ -74,6 +76,9 @@
         <br>
         </ul>
         </div>
+        </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
+
     </section>
     <section class="section-bloc" id="skills">
         <div class="global-zone-text">
@@ -93,6 +98,7 @@
             </p>
         </div>
         </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
         </div>
     </section>
     <section class="section-bloc" id="graveyard">
@@ -112,6 +118,8 @@
             </p>
         </div>
         </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
+
     </section>
 
 </div>
