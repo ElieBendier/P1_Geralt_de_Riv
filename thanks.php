@@ -57,21 +57,25 @@ if (!empty($errors)) {
                 <div class="thanks-title">
                     <h2>THANKS !</h2>
                 </div>
-                <div>
-                <p>
-                    Hello <?= $fullName ?>, we got your message. </br>
-                </br>
-                    You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?> </br>
-                </br>
-                    But luckily for you, I like awkward positions. Your address is : <?= $address ?>, I will call you at <?= $phone ?> when I will be around. </br>
-                </br>
-                    Don't try anything stupid, just wait for me.</br>
-                </br>
-                Geralt de Riv
 
-                        <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
-                            </p>
-                            </div>
+                <p>
+                    Hello <?= $fullName ?>, we got your message.
+                </p>
+                <p>
+                    You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?>
+                </p>
+                <p>
+                    But luckily for you, I like awkward positions. Your address is : <?= $address ?>, I will call you at <?= $phone ?> when I will be around.
+                </p>
+                    Don't try anything stupid, just wait for me.
+                </p>
+                <p>
+                    Geralt de Riv
+                </p>
+
+                <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
+            </div>
+        </section>
 
         </main>
 

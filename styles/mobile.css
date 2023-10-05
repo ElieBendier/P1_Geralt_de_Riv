@@ -61,7 +61,8 @@ footer {
 header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
 }
- /* header:before{
+
+/* header:before{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
     background-color: black;
     z-index : 0;
@@ -327,30 +328,34 @@ h2 {
     font-size: var(--font-size-text);
 }
 
-span {
+span.monster-name {
     text-decoration: underline;
 }
 
 li {
-    padding: 0.5rem 0;
+    display: flex;
+    padding: 1rem 0;
 }
 
 #graveyard img {
-    width: 25%;
-    float: left;
-    transition: 0.3s ease-in-out;
+    width: 8rem;
+    height: 6rem;
+    margin-right: 1rem;
+    transition: 0.25s ease-in-out;
     border-radius: var(--little-border-radius);
 }
 
 #graveyard img:hover {
-    transform: scale(2.5);
+    transform: scale(2);
 }
 
 
 /* --- form-page --- */
 
 
-#form-page, #thanks-page, #error-page {
+#form-page,
+#thanks-page,
+#error-page {
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: var(--font-size-text-form);
@@ -373,7 +378,9 @@ li {
     align-items: center;
 }
 
-#form-page .form-title, #thanks-page .thanks-title, #error-page .error-title {
+#form-page .form-title,
+#thanks-page .thanks-title,
+#error-page .error-title {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -387,7 +394,9 @@ li {
     margin-bottom: 7%;
 }
 
-#form-page h2, #thanks-page h2, #error-page h2 {
+#form-page h2,
+#thanks-page h2,
+#error-page h2 {
     text-align: center;
     line-height: 2.5rem;
     font-size: var(--font-size-title);

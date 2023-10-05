@@ -1,4 +1,4 @@
-<div class="bloc1">
+<div class="bloc-1">
             <div class="button my-story">
                 <div class="button-logo">
                     <a href="#my-story"></a>

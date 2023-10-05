@@ -104,8 +104,16 @@
     display: block;
 }
 
+.section-bloc .desktop {
+    position: relative;
+    bottom: 10%;
+    left: 30%;
+    width: 22%;
+}
 
-/* --- form-page --- */
+.section-bloc .mobile {
+    display: none;
+}
 
 .section-bloc {
     display: grid;
@@ -117,6 +125,8 @@
     background-position: 25% 42%;
     background-size: 20%;
 }
+
+/* bloc-1 */
 
 .section-bloc .geralt-pic {
     display: none;
@@ -143,7 +153,6 @@
     width: 22%;
 }
 
-
 .section-bloc .skills {
     position: relative;
     top: 2%;
@@ -158,24 +167,26 @@
     width: 22%;
 }
 
-.section-bloc .desktop {
-    position: relative;
-    bottom: 10%;
-    left: 30%;
-    width: 22%;
-}
-
-.section-bloc .mobile {
-    display: none;
-}
-
 .section-bloc .button.back {
     width: 5rem;
     height: 5rem;
 }
 
-.bloc2 {
+/* bloc-2 */
+
+.global-zone-text {
+    height: 80%;
+}
+
+.section-text {
+    /* height: 80%; */
+    padding: 1rem;
+}
+
+.bloc-2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* --- form-page --- */
