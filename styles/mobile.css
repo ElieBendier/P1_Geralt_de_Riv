@@ -25,9 +25,14 @@
     --little-border-radius: 0.3rem;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -71,7 +76,15 @@ main {
 
 #home-page,
 #form-page {
-    height: 84vh;
+    height: 82vh;
+}
+
+#home-page,
+#form-page,
+#section-page,
+#thank-page,
+#error-page {
+    filter: drop-shadow(1px 1px 5px rgb(24, 69, 113));
 }
 
 /* --- CTA --- */
@@ -79,29 +92,38 @@ main {
 #cta a,
 #cta button {
     z-index: 2;
+
     width: 50%;
     min-width: 150px;
     height: 8%;
     min-height: 2.5rem;
     max-height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
+
     border: 1px solid black;
     border-radius: 2rem;
+
     box-shadow: 1px 1px 5px black;
+
     position: fixed;
     bottom: 0.8rem;
     left: 0;
     right: 0;
+
     background-color: var(--color-cta);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     text-align: center;
     text-decoration: none;
+
+    color: white;
     font-size: 1.2rem;
     font-family: var(--font-family-cta);
     font-weight: var(--font-weight-cta);
-    color: white;
     text-shadow: 0.2px 0.2px 1px black;
 }
 
@@ -131,8 +153,6 @@ main {
     background-image: url(/assets/hexagon-frame.png);
     background-size: cover;
     background-repeat: none;
-
-
 }
 
 .button-logo a {
@@ -143,13 +163,13 @@ main {
     background-repeat: no-repeat;
 }
 
-.back {
+.button-logo.back {
     margin-left: auto;
     margin-right: auto;
     margin-top: 12%;
 }
 
-.back a {
+.button-logo.back a {
     background-image: url(/assets/icon-arrow.png);
 }
 
@@ -207,13 +227,10 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 
-    /* height: 84vh; */
-
     filter: drop-shadow(1px 1px 5px rgb(24, 69, 113));
 }
 
 #home-page .geralt-main {
-
     margin: 0 50%;
 }
 
@@ -396,4 +413,37 @@ textarea {
 
 #form-page form textarea {
     height: 4rem;
+}
+
+
+/* --- TABLET FORMAT --- */
+
+@media screen and (min-width: 500px) {
+
+    #home-page .geralt-pic {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    #home-page .geralt-name {
+        font-size: 4vw;
+    }
+
+    .button-logo {
+        height: 6rem;
+        width: 6rem;
+        margin: 1.2em;
+    }
+
+    .button-title a {
+        font-size: calc(var(--font-size-button)*1.1);
+        font-family: var(--font-family);
+        font-weight: var(--font-weight-cta);
+
+        padding: 0.5rem 0.8rem;
+        border-radius: var(--little-border-radius);
+        border: 1px solid black;
+
+        box-shadow: 1px 1px 5px black;
+    }
 }
