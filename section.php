@@ -58,7 +58,8 @@
         </ul>
         </div>
         </div>
-    </section>
+        <div class="back button-logo"><a href="#home-page"></a></div>
+        </section>
     <section class="section-bloc" id="armory">
         <div class="global-zone-text">
         <div class="section-title">
@@ -73,6 +74,9 @@
         <li>For the litteral monsters : The lady of the lake herself bestowed upon me her very best silver sword : <span>Aerondight</span>. This magic blade is light, sharp as a razor, and fits the hand neatly. It is also said the it have a destiny of its own and that time only will tell what it is. If you are reading this, I guess <span>her destiny is to fulfill your wildest monster hunting dreams</span> !<li>
         <br>
         </ul>
+        </div>
+        </div>
+        <div class="back button-logo"><a href="#home-page"></a>
         </div>
     </section>
     <section class="section-bloc" id="skills">
@@ -93,6 +97,7 @@
             </p>
         </div>
         </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
         </div>
     </section>
     <section class="section-bloc" id="graveyard">
@@ -107,11 +112,12 @@
                     <li><img src="/../assets/striga.png" alt="Here is a striga !"><span>Striga</span> : Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice ! </br></li>
                     <li><img src="/../assets/krallach.webp" alt="Here is a krallach !"><span>Krallach</span> : Hideous, but terribly effective. Got to be careful to deal with them. </br></li>
                     <li><img src="/../assets/bruxa.png" alt="Here is a bruxa !"><span>Bruxa</span> : It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me ! </br></li>
-                    <li><img src="/../assets/ghoul.jpeg" alt="Here is a ghoul !"><span>Ghouls</span> : I killed so much of them, they are so invasive ... </li>
+                    <li><img src="/../assets/ghoul.jpeg" alt="Here is a ghoul !"><span>Ghouls</span> : I killed so many of them, they are so invasive ... </li>
                 </ul>
             </p>
         </div>
         </div>
+        <div class="back button-logo"><a href="#home-page"></a></div>
     </section>
 
 </div>

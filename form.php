@@ -50,7 +50,7 @@
             </ul>
             </form>
         </div>
-
+        <div class="back button-logo"><a href="#home-page"></a><img scr="/../assets/hexagon-frame.png"></div>
         <div>
             <button type="submit" form="hireme" value="Update">SEND !</button>
         </div>

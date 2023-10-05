@@ -122,37 +122,33 @@ main {
 
 /* --- button --- */
 
-
 .button-logo {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    position: relative;
-    height: 5rem;
-    width: 5rem;
-    margin: 0.5rem 1rem 0.4rem 1rem;
-    background-color: black;
-
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.button-logo::before {
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    width: 4.8rem;
-    height: 4.8rem;
-    background-color: var(--color-button);
-    position: absolute;
-    content: "";
-    top: 0.1rem;
-    left: 0.1rem;
+    height: 5rem;
+    width: 5rem;
+    margin: 1em;
+    background-image: url(/assets/hexagon-frame.png);
+    background-size: cover;
+    background-repeat: none;
 }
 
 .button-logo a {
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     width: 3rem;
     height: 3rem;
+}
+
+.back {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+
+.back a {
+    background-image: url(/assets/icon-arrow.png);
 }
 
 .my-story .button-logo a {
@@ -237,7 +233,6 @@ a:active {
     content: "";
     top: 0.1rem;
     left: 0.08rem;
-
     background-image: url(/assets/geralt-main.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
