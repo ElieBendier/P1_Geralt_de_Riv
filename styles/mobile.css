@@ -54,18 +54,27 @@ footer {
     width: 100%;
     height: 8vh;
     min-height: 3rem;
-
     background-color: var(--color-frame);
+    
 }
 
 header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
+    
 }
- /* header:before{
+
+/* header::before{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 85% 50%, 15% 50%, 0% 100%);
-    background-color: black;
-    z-index : 0;
- } */
+    content: '';
+  width: 100%;
+  height: 9vh;
+  background-color: var(--color-frame);
+  display: block;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+} */
+
 footer {
     clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 85% 50%, 15% 50%, 0% 0%);
     bottom: 0;
@@ -371,6 +380,7 @@ li {
 #form-page .form-content {
     display: block;
     align-items: center;
+    padding-bottom: 20%;
 }
 
 #form-page .form-title, #thanks-page .thanks-title, #error-page .error-title {
