@@ -28,7 +28,7 @@
                         <option value="Spiders">Spiders</option>
                         <option value="Bats">Bats</option>
                         <option value="Barghest">Barghest</option>
-                        <option value="Bruxa">Bruxa</option>
+                        <option value="Werewolf">Werewolf</option>
                         <option value="Striga">Striga</option>
                     </select>
                 </li>
