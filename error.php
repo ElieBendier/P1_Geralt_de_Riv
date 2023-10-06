@@ -13,9 +13,8 @@
     <header>
     </header>
 
-        <main>
-
-            <div id="error-page">
+    <main>
+        <div id="error-page">
             <section class="error-bloc">
                 <div class="error-content">
                     <div class="error-title">
@@ -23,17 +22,19 @@
                     </div>
                     <div>
                     <p>Mmmh something got wrong !</br>
-                    Please fill out the form fields correctly otherwise I will not be able to access your request !</br>
-                    <ul>
-                        <?php foreach($errors as $error) : ?>
-                            <li><?= $error ?></li>
-                        <?php endforeach; ?>
-                    </ul>
-                <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
+                        Please fill out the form fields correctly otherwise I will not be able to access your request !</br>
+                        <ul>
+                            <?php foreach($errors as $error) : ?>
+                                <li><?= $error ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                        <img src ="/assets/geralt-error.jpg" alt="Geralt nude taking a bath">
                     </p>
-                    </div>
+                </div>
+            </section>
+        </div>
 
-        </main>
+    </main>
 
     <div id="cta">
         <a id="hire-me" href="index.php">HOME</a>

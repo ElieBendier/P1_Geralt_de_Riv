@@ -49,35 +49,32 @@ if (!empty($errors)) {
     <header>
     </header>
 
-        <main>
-
+    <main>
         <div id="thanks-page">
-        <section class="thanks-bloc">
-            <div class="thanks-content">
-                <div class="thanks-title">
-                    <h2>THANKS !</h2>
+            <section class="thanks-bloc">
+                <div class="thanks-content">
+                    <div class="thanks-title">
+                        <h2>THANKS !</h2>
+                    </div>
+
+                    <p>
+                        Hello <?= $fullName ?>, we got your message.</br></br>
+                    </p>
+
+                    <p>
+                        You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?></br>
+                        But luckily for you, I like awkward positions. Your address is :</br>
+                        <?= $address ?>, I will call you at <?= $phone ?> when I will be around.</br>
+                        Don't try anything stupid, just wait for me.</br>
+                        Geralt de Riv
+                    </p>
+
+                    <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
                 </div>
+            </section>
+        </div>
 
-                <p>
-                    Hello <?= $fullName ?>, we got your message.
-                </p>
-                <p>
-                    You are facing a problem with a <?= $monster_size ?> <?= $monster_type ?> ! And it seems to be a big problem : <?= $message ?>
-                </p>
-                <p>
-                    But luckily for you, I like awkward positions. Your address is : <?= $address ?>, I will call you at <?= $phone ?> when I will be around.
-                </p>
-                    Don't try anything stupid, just wait for me.
-                </p>
-                <p>
-                    Geralt de Riv
-                </p>
-
-                <img src ="/assets/geralt-hot.jpeg" alt="Geralt nude taking a bath">
-            </div>
-        </section>
-
-        </main>
+    </main>
 
     <div id="cta">
         <a id="hire-me" href="index.php">HOME</a>
