@@ -112,7 +112,7 @@
                         </li>
                         <li>
                             <img src="/../assets/ghoul.jpeg" alt="Here is a ghoul !">
-                            <span class="monster-name" id="ghouls">Ghouls</span> : I killed so much of them, they are so invasive ...
+                            <span class="monster-name" id="ghouls">Ghouls</span> : I killed so many of them, they are so invasive ...
                         </li>
                     </ul>
                 </div>

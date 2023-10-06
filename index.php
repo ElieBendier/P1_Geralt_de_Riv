@@ -87,7 +87,7 @@ let element = document.body.scrollHeight;
 
 window.addEventListener("resize", function(){
 element = document.body.scrollHeight;
-console.log(element)
+// console.log(element);
 })
 
  let last_scroll_position = 0;
