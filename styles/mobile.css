@@ -341,13 +341,16 @@ span {
 
 #monsters li {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem 0;
+    text-align: center;
 }
 
 #graveyard img {
-    width: 8rem;
-    height: 6rem;
-    margin-right: 1rem;
+    width: 6rem;
+    height: 4rem;
+    margin-bottom: 1rem;
     transition: 0.25s ease-in-out;
     border-radius: var(--little-border-radius);
 }

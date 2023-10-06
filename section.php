@@ -100,15 +100,15 @@
                     <ul id="monsters">
                         <li>
                             <img src="/../assets/striga.png" alt="Here is a striga !">
-                            <span class="monster-name" id="striga">Striga</span> : Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice !
+                            <span class="monster-name" id="striga">Striga :</span> Cursed creature, that's a woman transformed into a shredding demon. Kill it or try to remove the curse, your choice !
                         </li>
                         <li>
                             <img src="/../assets/krallach.webp" alt="Here is a krallach !">
-                            <span class="monster-name" id="krallach">Krallach</span> : Hideous, but terribly effective. Got to be careful to deal with them.
+                            <span class="monster-name" id="krallach">Krallach :</span> Hideous, but terribly effective. Got to be careful to deal with them.
                         </li>
                         <li>
                             <img src="/../assets/bruxa.png" alt="Here is a bruxa !">
-                            <span class="monster-name" id="bruxa">Bruxa</span> : It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me !
+                            <span class="monster-name" id="bruxa">Bruxa :</span> It's a vampire who fears neither the sun nor garlic, but only me. Then, you should better contact me !
                         </li>
                         <li>
                             <img src="/../assets/ghoul.jpeg" alt="Here is a ghoul !">
